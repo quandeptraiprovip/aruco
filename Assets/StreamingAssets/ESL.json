@@ -1,0 +1,1653 @@
+[
+  {
+    "id": "E001",
+    "question": "Chọn cách chào hỏi đúng trong lớp học tiếng Anh:",
+    "options": {
+      "A": "Good night",
+      "B": "See you later",
+      "C": "Hello, teacher!",
+      "D": "Where are you?"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E002",
+    "question": "Hoàn thành câu: \"I _____ a student.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "am",
+      "D": "be"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E003",
+    "question": "Tìm từ đồng nghĩa với \"happy\"",
+    "options": {
+      "A": "sad",
+      "B": "angry",
+      "C": "joyful",
+      "D": "tired"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E004",
+    "question": "Chọn giới từ đúng: \"The book is _____ the table.\"",
+    "options": {
+      "A": "on",
+      "B": "in",
+      "C": "under",
+      "D": "to"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E005",
+    "question": "Hoàn thành câu: \"She _____ to music.\"",
+    "options": {
+      "A": "listen",
+      "B": "listens",
+      "C": "listened",
+      "D": "listening"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E006",
+    "question": "Chọn đại từ nhân xưng đúng: \"_____ am your teacher.\"",
+    "options": {
+      "A": "He",
+      "B": "I",
+      "C": "She",
+      "D": "You"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E007",
+    "question": "Tìm từ trái nghĩa với \"hot\"",
+    "options": {
+      "A": "warm",
+      "B": "cold",
+      "C": "boiling",
+      "D": "spicy"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E008",
+    "question": "Chọn từ để hỏi phù hợp: \"_____ is your name?\"",
+    "options": {
+      "A": "What",
+      "B": "Where",
+      "C": "How",
+      "D": "Why"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E009",
+    "question": "Hoàn thành câu: \"My name _____ Peter.\"",
+    "options": {
+      "A": "are",
+      "B": "am",
+      "C": "is",
+      "D": "be"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E010",
+    "question": "Tìm từ đồng nghĩa với \"small\"",
+    "options": {
+      "A": "big",
+      "B": "tiny",
+      "C": "tall",
+      "D": "huge"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E011",
+    "question": "Chọn giới từ đúng: \"She sits _____ her friend.\"",
+    "options": {
+      "A": "next",
+      "B": "on",
+      "C": "under",
+      "D": "beside"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E012",
+    "question": "Hoàn thành câu: \"They _____ playing soccer now.\"",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "am",
+      "D": "be"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E013",
+    "question": "Tìm từ trái nghĩa với \"easy\"",
+    "options": {
+      "A": "hard",
+      "B": "fast",
+      "C": "nice",
+      "D": "short"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E014",
+    "question": "Chọn đáp án đúng: \"How old are you?\"",
+    "options": {
+      "A": "I'm ten.",
+      "B": "I'm fine.",
+      "C": "I'm happy.",
+      "D": "I'm home."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E015",
+    "question": "Hoàn thành câu: \"He _____ a new bike.\"",
+    "options": {
+      "A": "has",
+      "B": "have",
+      "C": "having",
+      "D": "had"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E016",
+    "question": "Tìm từ đồng nghĩa với \"friend\"",
+    "options": {
+      "A": "enemy",
+      "B": "teacher",
+      "C": "buddy",
+      "D": "student"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E017",
+    "question": "Chọn từ hỏi đúng: \"_____ do you live?\"",
+    "options": {
+      "A": "Who",
+      "B": "When",
+      "C": "Where",
+      "D": "What"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E018",
+    "question": "Hoàn thành câu: \"She _____ tall and pretty.\"",
+    "options": {
+      "A": "are",
+      "B": "am",
+      "C": "be",
+      "D": "is"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E019",
+    "question": "Tìm từ trái nghĩa với \"long\"",
+    "options": {
+      "A": "short",
+      "B": "tall",
+      "C": "wide",
+      "D": "thin"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E020",
+    "question": "Chọn đáp án đúng: \"Do you like English?\"",
+    "options": {
+      "A": "Yes, I am.",
+      "B": "Yes, I do.",
+      "C": "Yes, I have.",
+      "D": "Yes, I like."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E021",
+    "question": "Tìm từ để hỏi phù hợp",
+    "options": {
+      "A": "blue",
+      "B": "run",
+      "C": "where",
+      "D": "cat"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E022",
+    "question": "Hoàn thành câu: \"We _____ to school by bike.\"",
+    "options": {
+      "A": "goes",
+      "B": "going",
+      "C": "go",
+      "D": "gone"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E023",
+    "question": "Chọn câu trả lời đúng cho: \"Thank you\"",
+    "options": {
+      "A": "Why?",
+      "B": "You're welcome!",
+      "C": "No way!",
+      "D": "I don’t know."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E024",
+    "question": "Tìm nghĩa gần đúng của \"cold\"",
+    "options": {
+      "A": "hot",
+      "B": "warm",
+      "C": "chilly",
+      "D": "fast"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E025",
+    "question": "Hoàn thành câu: \"I have _____ apple.\"",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "some"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E026",
+    "question": "Tìm từ loại tính từ",
+    "options": {
+      "A": "beautiful",
+      "B": "run",
+      "C": "quickly",
+      "D": "sing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E027",
+    "question": "Hoàn thành câu: \"There _____ some books on the table.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E028",
+    "question": "Chọn từ đúng ở thì quá khứ của \"eat\"",
+    "options": {
+      "A": "ate",
+      "B": "eated",
+      "C": "eats",
+      "D": "eating"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E029",
+    "question": "Hoàn thành câu hỏi: \"_____ you like ice cream?\"",
+    "options": {
+      "A": "Do",
+      "B": "Does",
+      "C": "Are",
+      "D": "Is"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E030",
+    "question": "Tìm từ trái nghĩa với \"tall\"",
+    "options": {
+      "A": "thin",
+      "B": "short",
+      "C": "big",
+      "D": "fat"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E031",
+    "question": "Chọn câu đúng:",
+    "options": {
+      "A": "She don't like apples.",
+      "B": "He doesn't likes apples.",
+      "C": "They doesn't like apples.",
+      "D": "He doesn't like apples."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E032",
+    "question": "Chọn câu nói phù hợp khi bạn mắc lỗi:",
+    "options": {
+      "A": "Good job!",
+      "B": "Excuse me!",
+      "C": "I’m sorry!",
+      "D": "See you!"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E033",
+    "question": "Hoàn thành câu: \"We _____ playing soccer.\"",
+    "options": {
+      "A": "am",
+      "B": "is",
+      "C": "are",
+      "D": "be"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E034",
+    "question": "Tìm nghĩa đúng của từ \"early\"",
+    "options": {
+      "A": "on time",
+      "B": "too late",
+      "C": "before the usual time",
+      "D": "never"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E035",
+    "question": "Chọn từ chỉ nơi chốn:",
+    "options": {
+      "A": "run",
+      "B": "market",
+      "C": "happy",
+      "D": "fast"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E036",
+    "question": "Chọn từ để hỏi đúng: \"_____ is your birthday?\"",
+    "options": {
+      "A": "When",
+      "B": "Where",
+      "C": "What",
+      "D": "Why"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E037",
+    "question": "Hoàn thành câu: \"My friends and I _____ to the zoo.\"",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "going",
+      "D": "gone"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E038",
+    "question": "Tìm từ đồng nghĩa với \"big\"",
+    "options": {
+      "A": "tiny",
+      "B": "huge",
+      "C": "short",
+      "D": "thin"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E039",
+    "question": "Chọn câu trả lời đúng: \"Do you have any brothers?\"",
+    "options": {
+      "A": "Yes, I do.",
+      "B": "Yes, I am.",
+      "C": "Yes, I have.",
+      "D": "Yes, I can."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E040",
+    "question": "Chọn từ chỉ cảm xúc:",
+    "options": {
+      "A": "table",
+      "B": "green",
+      "C": "happy",
+      "D": "run"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E041",
+    "question": "Hoàn thành câu: \"This is _____ dog.\"",
+    "options": {
+      "A": "me",
+      "B": "my",
+      "C": "mine",
+      "D": "I"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E042",
+    "question": "Tìm từ trái nghĩa với \"noisy\"",
+    "options": {
+      "A": "quiet",
+      "B": "loud",
+      "C": "funny",
+      "D": "fast"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E043",
+    "question": "Chọn câu nói khi chuẩn bị ăn:",
+    "options": {
+      "A": "Goodbye!",
+      "B": "Excuse me!",
+      "C": "Let’s eat!",
+      "D": "Bon appétit!"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E044",
+    "question": "Chọn câu hỏi đúng:",
+    "options": {
+      "A": "You are happy?",
+      "B": "Is you happy?",
+      "C": "Are you happy?",
+      "D": "Happy you are?"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E045",
+    "question": "Tìm từ viết đúng chính tả:",
+    "options": {
+      "A": "becaus",
+      "B": "becuz",
+      "C": "because",
+      "D": "becas"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E046",
+    "question": "Chọn câu đúng:",
+    "options": {
+      "A": "We was late.",
+      "B": "They is playing.",
+      "C": "She are tired.",
+      "D": "I am ready."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E047",
+    "question": "Chọn dạng đúng: \"Tom and Jerry _____ friends.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "am"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E048",
+    "question": "Chọn từ là tên con vật:",
+    "options": {
+      "A": "table",
+      "B": "dog",
+      "C": "school",
+      "D": "book"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E049",
+    "question": "Hoàn thành câu: \"She has a _____ smile.\"",
+    "options": {
+      "A": "beauty",
+      "B": "beautiful",
+      "C": "beautify",
+      "D": "beautifully"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E050",
+    "question": "Chọn câu trả lời đúng: \"What time is it?\"",
+    "options": {
+      "A": "It’s sunny.",
+      "B": "It’s my time.",
+      "C": "It’s 3 o’clock.",
+      "D": "Time is good."
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E051",
+    "question": "Tìm từ đồng nghĩa với \"cold\"",
+    "options": {
+      "A": "hot",
+      "B": "chilly",
+      "C": "warm",
+      "D": "boiling"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E052",
+    "question": "Hoàn thành câu: \"She _____ a book every night.\"",
+    "options": {
+      "A": "reads",
+      "B": "read",
+      "C": "reading",
+      "D": "is read"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E053",
+    "question": "Chọn giới từ đúng: \"The keys are _____ the bag.\"",
+    "options": {
+      "A": "on",
+      "B": "to",
+      "C": "in",
+      "D": "at"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E054",
+    "question": "Chọn đại từ đúng: \"_____ is my best friend.\"",
+    "options": {
+      "A": "He",
+      "B": "Him",
+      "C": "His",
+      "D": "She"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E055",
+    "question": "Chọn câu chào hỏi phù hợp khi gặp bạn lần đầu",
+    "options": {
+      "A": "Good night!",
+      "B": "How are you?",
+      "C": "Nice to meet you!",
+      "D": "See you!"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E056",
+    "question": "Hoàn thành câu: \"We _____ football every weekend.\"",
+    "options": {
+      "A": "plays",
+      "B": "played",
+      "C": "play",
+      "D": "playing"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E057",
+    "question": "Tìm từ trái nghĩa với \"happy\"",
+    "options": {
+      "A": "joyful",
+      "B": "glad",
+      "C": "sad",
+      "D": "smile"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E058",
+    "question": "Chọn đáp án đúng: \"What time is it?\"",
+    "options": {
+      "A": "It's hot.",
+      "B": "It's 5 o'clock.",
+      "C": "I'm fine.",
+      "D": "It’s on the table."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E059",
+    "question": "Tìm từ loại động từ",
+    "options": {
+      "A": "run",
+      "B": "red",
+      "C": "quick",
+      "D": "big"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E060",
+    "question": "Hoàn thành câu: \"He _____ to school by bike.\"",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "going",
+      "D": "gone"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E061",
+    "question": "Tìm từ đồng nghĩa với \"big\"",
+    "options": {
+      "A": "tiny",
+      "B": "small",
+      "C": "huge",
+      "D": "short"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E062",
+    "question": "Chọn từ hỏi phù hợp: \"_____ do you live?\"",
+    "options": {
+      "A": "What",
+      "B": "Where",
+      "C": "Who",
+      "D": "When"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E063",
+    "question": "Hoàn thành câu: \"They _____ in the park now.\"",
+    "options": {
+      "A": "plays",
+      "B": "is playing",
+      "C": "are playing",
+      "D": "play"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E064",
+    "question": "Tìm từ trái nghĩa với \"fast\"",
+    "options": {
+      "A": "quick",
+      "B": "slow",
+      "C": "run",
+      "D": "speed"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E065",
+    "question": "Chọn từ đúng để hỏi tuổi: \"_____ old are you?\"",
+    "options": {
+      "A": "What",
+      "B": "How",
+      "C": "Which",
+      "D": "Who"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E066",
+    "question": "Hoàn thành câu: \"There _____ a dog in the garden.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "be",
+      "D": "was"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E067",
+    "question": "Tìm từ đồng nghĩa với \"smart\"",
+    "options": {
+      "A": "clever",
+      "B": "tall",
+      "C": "short",
+      "D": "lazy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E068",
+    "question": "Chọn giới từ phù hợp: \"The picture is _____ the wall.\"",
+    "options": {
+      "A": "on",
+      "B": "in",
+      "C": "under",
+      "D": "at"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E069",
+    "question": "Hoàn thành câu: \"I _____ a letter yesterday.\"",
+    "options": {
+      "A": "write",
+      "B": "wrote",
+      "C": "writes",
+      "D": "written"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E070",
+    "question": "Chọn câu trả lời phù hợp: \"How are you today?\"",
+    "options": {
+      "A": "Yes, I am.",
+      "B": "I’m fine, thank you.",
+      "C": "I am ten.",
+      "D": "It’s sunny."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E071",
+    "question": "Tìm từ trái nghĩa với \"early\"",
+    "options": {
+      "A": "late",
+      "B": "first",
+      "C": "fast",
+      "D": "soon"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E072",
+    "question": "Hoàn thành câu: \"My father _____ a doctor.\"",
+    "options": {
+      "A": "am",
+      "B": "is",
+      "C": "are",
+      "D": "be"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E073",
+    "question": "Chọn từ để hỏi phương tiện: \"How do you go to school? — I go _____ bike.\"",
+    "options": {
+      "A": "in",
+      "B": "by",
+      "C": "on",
+      "D": "with"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E074",
+    "question": "Tìm từ đồng nghĩa với \"begin\"",
+    "options": {
+      "A": "finish",
+      "B": "end",
+      "C": "start",
+      "D": "close"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E075",
+    "question": "Hoàn thành câu: \"She _____ to music every evening.\"",
+    "options": {
+      "A": "listens",
+      "B": "listen",
+      "C": "listening",
+      "D": "listened"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E076",
+    "question": "Chọn đại từ sở hữu đúng: \"This is _____ book.\"",
+    "options": {
+      "A": "me",
+      "B": "mine",
+      "C": "my",
+      "D": "I"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E077",
+    "question": "Tìm từ trái nghĩa với \"open\"",
+    "options": {
+      "A": "close",
+      "B": "start",
+      "C": "begin",
+      "D": "leave"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E078",
+    "question": "Hoàn thành câu: \"Do you like _____ apples?\"",
+    "options": {
+      "A": "some",
+      "B": "any",
+      "C": "a",
+      "D": "the"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E079",
+    "question": "Tìm từ đồng nghĩa với \"pretty\"",
+    "options": {
+      "A": "ugly",
+      "B": "beautiful",
+      "C": "boring",
+      "D": "noisy"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E080",
+    "question": "Chọn câu đúng: \"My sister _____ tennis every Sunday.\"",
+    "options": {
+      "A": "play",
+      "B": "plays",
+      "C": "played",
+      "D": "playing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E081",
+    "question": "Tìm từ trái nghĩa với \"clean\"",
+    "options": {
+      "A": "dirty",
+      "B": "tidy",
+      "C": "shiny",
+      "D": "clear"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E082",
+    "question": "Hoàn thành câu: \"It _____ raining now.\"",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "are",
+      "D": "be"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E083",
+    "question": "Chọn từ để hỏi lý do: \"_____ are you sad?\"",
+    "options": {
+      "A": "What",
+      "B": "Where",
+      "C": "How",
+      "D": "Why"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E084",
+    "question": "Tìm từ đồng nghĩa với \"friend\"",
+    "options": {
+      "A": "enemy",
+      "B": "buddy",
+      "C": "teacher",
+      "D": "neighbor"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E085",
+    "question": "Hoàn thành câu: \"We _____ going to the zoo tomorrow.\"",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "be",
+      "D": "am"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E086",
+    "question": "Tìm từ trái nghĩa với \"strong\"",
+    "options": {
+      "A": "weak",
+      "B": "tall",
+      "C": "fast",
+      "D": "hard"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E087",
+    "question": "Chọn từ đúng: \"Can you help _____ with my homework?\"",
+    "options": {
+      "A": "I",
+      "B": "me",
+      "C": "mine",
+      "D": "my"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E088",
+    "question": "Tìm từ đồng nghĩa với \"funny\"",
+    "options": {
+      "A": "boring",
+      "B": "serious",
+      "C": "amusing",
+      "D": "tired"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E089",
+    "question": "Hoàn thành câu: \"There _____ two apples on the table.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E090",
+    "question": "Chọn giới từ phù hợp: \"I was born _____ June.\"",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "at",
+      "D": "to"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E091",
+    "question": "Tìm từ đồng nghĩa với \"quick\"",
+    "options": {
+      "A": "slow",
+      "B": "fast",
+      "C": "tired",
+      "D": "wait"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E092",
+    "question": "Chọn câu hỏi phù hợp: \"_____ do you go to school?\"",
+    "options": {
+      "A": "How",
+      "B": "What",
+      "C": "Where",
+      "D": "Who"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E093",
+    "question": "Hoàn thành câu: \"She _____ a beautiful dress yesterday.\"",
+    "options": {
+      "A": "wear",
+      "B": "wears",
+      "C": "wore",
+      "D": "wearing"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E094",
+    "question": "Tìm từ trái nghĩa với \"quiet\"",
+    "options": {
+      "A": "peaceful",
+      "B": "noisy",
+      "C": "silent",
+      "D": "still"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E095",
+    "question": "Chọn đáp án đúng: \"How many pencils _____ there?\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E096",
+    "question": "Hoàn thành câu: \"I _____ my homework now.\"",
+    "options": {
+      "A": "does",
+      "B": "do",
+      "C": "am doing",
+      "D": "did"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E097",
+    "question": "Tìm từ đồng nghĩa với \"happy\"",
+    "options": {
+      "A": "sad",
+      "B": "angry",
+      "C": "joyful",
+      "D": "cry"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E098",
+    "question": "Chọn giới từ đúng: \"He sat _____ the window.\"",
+    "options": {
+      "A": "under",
+      "B": "on",
+      "C": "by",
+      "D": "into"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E099",
+    "question": "Hoàn thành câu: \"My parents _____ watching TV.\"",
+    "options": {
+      "A": "is",
+      "B": "am",
+      "C": "are",
+      "D": "be"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E100",
+    "question": "Tìm từ trái nghĩa với \"hot\"",
+    "options": {
+      "A": "cold",
+      "B": "warm",
+      "C": "boiling",
+      "D": "spicy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E101",
+    "question": "Chọn đáp án đúng: \"Do you like pizza?\"",
+    "options": {
+      "A": "Yes, I do.",
+      "B": "Yes, I am.",
+      "C": "Yes, I can.",
+      "D": "Yes, I will."
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E102",
+    "question": "Hoàn thành câu: \"He _____ to music yesterday.\"",
+    "options": {
+      "A": "listen",
+      "B": "listening",
+      "C": "listens",
+      "D": "listened"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E103",
+    "question": "Tìm từ đồng nghĩa với \"tired\"",
+    "options": {
+      "A": "energetic",
+      "B": "sleepy",
+      "C": "awake",
+      "D": "happy"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E104",
+    "question": "Chọn từ phù hợp: \"My mother is a _____\"",
+    "options": {
+      "A": "play",
+      "B": "doctor",
+      "C": "running",
+      "D": "write"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E105",
+    "question": "Hoàn thành câu: \"The sun _____ in the east.\"",
+    "options": {
+      "A": "rise",
+      "B": "rises",
+      "C": "rose",
+      "D": "rising"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E106",
+    "question": "Tìm từ trái nghĩa với \"light\" (nhẹ)",
+    "options": {
+      "A": "thin",
+      "B": "heavy",
+      "C": "tiny",
+      "D": "short"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E107",
+    "question": "Chọn từ phù hợp: \"Is there _____ milk left?\"",
+    "options": {
+      "A": "many",
+      "B": "a",
+      "C": "some",
+      "D": "any"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "E108",
+    "question": "Tìm từ đồng nghĩa với \"beautiful\"",
+    "options": {
+      "A": "pretty",
+      "B": "ugly",
+      "C": "noisy",
+      "D": "short"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E109",
+    "question": "Hoàn thành câu: \"I _____ like math.\"",
+    "options": {
+      "A": "am",
+      "B": "do",
+      "C": "don’t",
+      "D": "does"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E110",
+    "question": "Chọn đáp án đúng: \"Would you like some tea?\"",
+    "options": {
+      "A": "Yes, I like.",
+      "B": "Yes, I would.",
+      "C": "Yes, I do.",
+      "D": "Yes, I am."
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E111",
+    "question": "Tìm từ trái nghĩa với \"cold\"",
+    "options": {
+      "A": "hot",
+      "B": "cool",
+      "C": "chilly",
+      "D": "mild"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E112",
+    "question": "Hoàn thành câu: \"She _____ her homework every day.\"",
+    "options": {
+      "A": "do",
+      "B": "does",
+      "C": "did",
+      "D": "doing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E113",
+    "question": "Chọn từ để hỏi người: \"_____ is that man?\"",
+    "options": {
+      "A": "Where",
+      "B": "Who",
+      "C": "When",
+      "D": "What"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E114",
+    "question": "Tìm từ đồng nghĩa với \"angry\"",
+    "options": {
+      "A": "mad",
+      "B": "happy",
+      "C": "sad",
+      "D": "calm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E115",
+    "question": "Hoàn thành câu: \"We _____ to school at 6:30.\"",
+    "options": {
+      "A": "goes",
+      "B": "go",
+      "C": "going",
+      "D": "gone"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E116",
+    "question": "Tìm từ trái nghĩa với \"up\"",
+    "options": {
+      "A": "top",
+      "B": "down",
+      "C": "over",
+      "D": "on"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E117",
+    "question": "Chọn giới từ đúng: \"She lives _____ Hanoi.\"",
+    "options": {
+      "A": "on",
+      "B": "to",
+      "C": "in",
+      "D": "at"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E118",
+    "question": "Tìm từ đồng nghĩa với \"small\"",
+    "options": {
+      "A": "tiny",
+      "B": "huge",
+      "C": "big",
+      "D": "tall"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E119",
+    "question": "Hoàn thành câu: \"It _____ snowing yesterday.\"",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "are",
+      "D": "be"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E120",
+    "question": "Chọn đáp án đúng: \"How often do you brush your teeth?\"",
+    "options": {
+      "A": "At 6 o'clock",
+      "B": "Every day",
+      "C": "By bus",
+      "D": "In my room"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E121",
+    "question": "Tìm từ trái nghĩa với \"high\"",
+    "options": {
+      "A": "low",
+      "B": "tall",
+      "C": "big",
+      "D": "short"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E122",
+    "question": "Hoàn thành câu: \"My friend _____ to school by bike.\"",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "going",
+      "D": "gone"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E123",
+    "question": "Tìm từ đồng nghĩa với \"start\"",
+    "options": {
+      "A": "begin",
+      "B": "finish",
+      "C": "end",
+      "D": "close"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E124",
+    "question": "Chọn giới từ đúng: \"The book is _____ the table.\"",
+    "options": {
+      "A": "under",
+      "B": "to",
+      "C": "by",
+      "D": "into"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E125",
+    "question": "Hoàn thành câu: \"They _____ playing football.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E126",
+    "question": "Tìm từ trái nghĩa với \"easy\"",
+    "options": {
+      "A": "hard",
+      "B": "fast",
+      "C": "long",
+      "D": "soft"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E127",
+    "question": "Chọn từ phù hợp: \"He is _____ than me.\"",
+    "options": {
+      "A": "tall",
+      "B": "taller",
+      "C": "tallest",
+      "D": "more tall"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E128",
+    "question": "Tìm từ đồng nghĩa với \"teacher\"",
+    "options": {
+      "A": "pupil",
+      "B": "classmate",
+      "C": "instructor",
+      "D": "student"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E129",
+    "question": "Hoàn thành câu: \"_____ you help me, please?\"",
+    "options": {
+      "A": "Do",
+      "B": "Can",
+      "C": "Are",
+      "D": "Did"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E130",
+    "question": "Tìm từ trái nghĩa với \"old\"",
+    "options": {
+      "A": "new",
+      "B": "young",
+      "C": "fresh",
+      "D": "modern"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E131",
+    "question": "Chọn từ phù hợp: \"I _____ breakfast at 7 a.m.\"",
+    "options": {
+      "A": "have",
+      "B": "has",
+      "C": "having",
+      "D": "had"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E132",
+    "question": "Tìm từ đồng nghĩa với \"home\"",
+    "options": {
+      "A": "house",
+      "B": "school",
+      "C": "office",
+      "D": "market"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E133",
+    "question": "Hoàn thành câu: \"She _____ not like carrots.\"",
+    "options": {
+      "A": "do",
+      "B": "does",
+      "C": "did",
+      "D": "does"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E134",
+    "question": "Tìm từ trái nghĩa với \"day\"",
+    "options": {
+      "A": "night",
+      "B": "morning",
+      "C": "evening",
+      "D": "sun"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E135",
+    "question": "Chọn từ đúng: \"The baby is _____ now.\"",
+    "options": {
+      "A": "sleep",
+      "B": "sleeping",
+      "C": "sleeps",
+      "D": "slept"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E136",
+    "question": "Tìm từ đồng nghĩa với \"shout\"",
+    "options": {
+      "A": "whisper",
+      "B": "yell",
+      "C": "talk",
+      "D": "laugh"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E137",
+    "question": "Hoàn thành câu: \"My school is _____ the supermarket.\"",
+    "options": {
+      "A": "next",
+      "B": "near",
+      "C": "beside",
+      "D": "in"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E138",
+    "question": "Tìm từ trái nghĩa với \"clean\"",
+    "options": {
+      "A": "wash",
+      "B": "dirty",
+      "C": "tidy",
+      "D": "neat"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E139",
+    "question": "Chọn giới từ đúng: \"We stayed _____ home.\"",
+    "options": {
+      "A": "on",
+      "B": "in",
+      "C": "at",
+      "D": "to"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E140",
+    "question": "Tìm từ đồng nghĩa với \"happy\"",
+    "options": {
+      "A": "angry",
+      "B": "smile",
+      "C": "glad",
+      "D": "mean"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E141",
+    "question": "Hoàn thành câu: \"I like _____ books.\"",
+    "options": {
+      "A": "read",
+      "B": "reading",
+      "C": "reads",
+      "D": "reader"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E142",
+    "question": "Tìm từ trái nghĩa với \"young\"",
+    "options": {
+      "A": "old",
+      "B": "child",
+      "C": "teen",
+      "D": "kid"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E143",
+    "question": "Chọn từ đúng: \"Is she _____ a cake?\"",
+    "options": {
+      "A": "make",
+      "B": "makes",
+      "C": "making",
+      "D": "made"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E144",
+    "question": "Tìm từ đồng nghĩa với \"delicious\"",
+    "options": {
+      "A": "tasty",
+      "B": "salty",
+      "C": "spicy",
+      "D": "ugly"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E145",
+    "question": "Hoàn thành câu: \"I _____ English and Math.\"",
+    "options": {
+      "A": "like",
+      "B": "likes",
+      "C": "liking",
+      "D": "liked"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E146",
+    "question": "Tìm từ trái nghĩa với \"long\"",
+    "options": {
+      "A": "thin",
+      "B": "short",
+      "C": "wide",
+      "D": "small"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "E147",
+    "question": "Chọn từ đúng: \"He has _____ orange bag.\"",
+    "options": {
+      "A": "an",
+      "B": "a",
+      "C": "the",
+      "D": "any"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E148",
+    "question": "Tìm từ đồng nghĩa với \"clean\"",
+    "options": {
+      "A": "dirty",
+      "B": "messy",
+      "C": "tidy",
+      "D": "gross"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "E149",
+    "question": "Hoàn thành câu: \"Let’s _____ to the park!\"",
+    "options": {
+      "A": "go",
+      "B": "going",
+      "C": "went",
+      "D": "gone"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "E150",
+    "question": "Tìm từ trái nghĩa với \"beautiful\"",
+    "options": {
+      "A": "nice",
+      "B": "ugly",
+      "C": "cute",
+      "D": "pretty"
+    },
+    "correct_answer": "B"
+  }
+]
+

@@ -1,0 +1,1655 @@
+[
+  {
+    "id": "M001",
+    "question": "Giá trị của biểu thức: 3x - 5 khi x = 2 là bao nhiêu?",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "5",
+      "D": "3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M002",
+    "question": "Phân số nào lớn hơn 1?",
+    "options": {
+      "A": "1/3",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "2/5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M003",
+    "question": "Giải phương trình: x + 4 = 10",
+    "options": {
+      "A": "x = 14",
+      "B": "x = 6",
+      "C": "x = -6",
+      "D": "x = 5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M004",
+    "question": "Chu vi hình chữ nhật có chiều dài 5cm, chiều rộng 3cm là:",
+    "options": {
+      "A": "15 cm",
+      "B": "16 cm",
+      "C": "8 cm",
+      "D": "10 cm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M005",
+    "question": "Một hình tam giác có ba góc lần lượt là 60°, 60°, và ...?",
+    "options": {
+      "A": "30°",
+      "B": "45°",
+      "C": "60°",
+      "D": "90°"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M006",
+    "question": "Số thập phân 0,75 bằng phân số nào?",
+    "options": {
+      "A": "3/5",
+      "B": "1/4",
+      "C": "3/4",
+      "D": "2/3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M007",
+    "question": "Giá trị của biểu thức: 2(x - 3) khi x = 5 là?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M008",
+    "question": "Diện tích hình vuông cạnh 4cm là:",
+    "options": {
+      "A": "16 cm²",
+      "B": "8 cm²",
+      "C": "12 cm²",
+      "D": "4 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M009",
+    "question": "Nếu giảm 20% của 100 thì còn lại bao nhiêu?",
+    "options": {
+      "A": "90",
+      "B": "85",
+      "C": "80",
+      "D": "75"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M010",
+    "question": "Giải bất phương trình: x - 2 > 3",
+    "options": {
+      "A": "x > 1",
+      "B": "x > 5",
+      "C": "x < 1",
+      "D": "x < 5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M011",
+    "question": "Số nào là bội của 6?",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "7",
+      "D": "5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M012",
+    "question": "Tìm x: 2x = 18",
+    "options": {
+      "A": "x = 20",
+      "B": "x = 16",
+      "C": "x = 9",
+      "D": "x = 8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M013",
+    "question": "Tính: 15% của 200 là:",
+    "options": {
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M014",
+    "question": "Một hình tròn có bán kính 7cm. Diện tích là bao nhiêu? (π ≈ 3,14)",
+    "options": {
+      "A": "154 cm²",
+      "B": "144 cm²",
+      "C": "120 cm²",
+      "D": "100 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M015",
+    "question": "Tính góc còn lại của tam giác có hai góc 45° và 60°.",
+    "options": {
+      "A": "60°",
+      "B": "65°",
+      "C": "55°",
+      "D": "75°"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "M016",
+    "question": "Giải phương trình: 3x - 2 = 10",
+    "options": {
+      "A": "x = 4",
+      "B": "x = 3",
+      "C": "x = 5",
+      "D": "x = 2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M017",
+    "question": "Số nào là ước của 18?",
+    "options": {
+      "A": "5",
+      "B": "3",
+      "C": "10",
+      "D": "7"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M018",
+    "question": "Phân số nào bằng 0,5?",
+    "options": {
+      "A": "3/4",
+      "B": "2/3",
+      "C": "1/2",
+      "D": "4/5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M019",
+    "question": "Chu vi hình vuông cạnh 6cm là:",
+    "options": {
+      "A": "12 cm",
+      "B": "24 cm",
+      "C": "18 cm",
+      "D": "36 cm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M020",
+    "question": "Tìm x biết: x/4 = 3",
+    "options": {
+      "A": "x = 12",
+      "B": "x = 8",
+      "C": "x = 6",
+      "D": "x = 10"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M021",
+    "question": "Giá trị của biểu thức: 5x + 3 khi x = 2 là:",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "13",
+      "D": "15"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M022",
+    "question": "Số thập phân nào bằng phân số 1/5?",
+    "options": {
+      "A": "0,25",
+      "B": "0,5",
+      "C": "0,2",
+      "D": "0,75"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M023",
+    "question": "Một hình chữ nhật có chiều dài 8cm, chiều rộng 2cm. Diện tích là:",
+    "options": {
+      "A": "16 cm²",
+      "B": "20 cm²",
+      "C": "10 cm²",
+      "D": "8 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M024",
+    "question": "Giải phương trình: 4x = 28",
+    "options": {
+      "A": "x = 6",
+      "B": "x = 7",
+      "C": "x = 8",
+      "D": "x = 9"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M025",
+    "question": "Góc vuông bằng bao nhiêu độ?",
+    "options": {
+      "A": "45°",
+      "B": "90°",
+      "C": "60°",
+      "D": "180°"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M026",
+    "question": "Một cửa hàng giảm giá 10% cho sản phẩm giá 200.000đ. Giá sau giảm là:",
+    "options": {
+      "A": "190.000đ",
+      "B": "180.000đ",
+      "C": "170.000đ",
+      "D": "150.000đ"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M027",
+    "question": "Chu vi hình tam giác có ba cạnh dài 3cm, 4cm và 5cm là:",
+    "options": {
+      "A": "10 cm",
+      "B": "11 cm",
+      "C": "13 cm",
+      "D": "12 cm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "M028",
+    "question": "Phân số nào lớn nhất?",
+    "options": {
+      "A": "1/3",
+      "B": "2/5",
+      "C": "3/4",
+      "D": "5/8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M029",
+    "question": "Giải bất phương trình: x + 5 < 10",
+    "options": {
+      "A": "x < 15",
+      "B": "x < 5",
+      "C": "x > 5",
+      "D": "x > 15"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M030",
+    "question": "Tìm x biết: x/3 = 6",
+    "options": {
+      "A": "x = 9",
+      "B": "x = 12",
+      "C": "x = 15",
+      "D": "x = 18"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "M031",
+    "question": "Tính: 25% của 80 là:",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "15",
+      "D": "30"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M032",
+    "question": "Diện tích hình tam giác có đáy 10cm và chiều cao 6cm là:",
+    "options": {
+      "A": "60 cm²",
+      "B": "30 cm²",
+      "C": "40 cm²",
+      "D": "20 cm²"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M033",
+    "question": "Tìm x: x - 7 = 10",
+    "options": {
+      "A": "x = 3",
+      "B": "x = 17",
+      "C": "x = -3",
+      "D": "x = 10"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M034",
+    "question": "Một hình tròn có đường kính 14cm. Bán kính là:",
+    "options": {
+      "A": "6cm",
+      "B": "7cm",
+      "C": "8cm",
+      "D": "10cm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M035",
+    "question": "Tìm phân số bằng với 2/4:",
+    "options": {
+      "A": "1/4",
+      "B": "3/4",
+      "C": "1/2",
+      "D": "2/3"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M036",
+    "question": "Giải bất phương trình: 2x + 1 > 5",
+    "options": {
+      "A": "x > 3",
+      "B": "x < 3",
+      "C": "x > 2",
+      "D": "x < 2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M037",
+    "question": "Phân số nào bé hơn 1/2?",
+    "options": {
+      "A": "2/3",
+      "B": "3/4",
+      "C": "1/4",
+      "D": "5/6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M038",
+    "question": "Tìm x: 5x = 35",
+    "options": {
+      "A": "x = 5",
+      "B": "x = 6",
+      "C": "x = 7",
+      "D": "x = 8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M039",
+    "question": "Chu vi hình tròn bán kính 5cm là bao nhiêu? (π ≈ 3,14)",
+    "options": {
+      "A": "31,4 cm",
+      "B": "25 cm",
+      "C": "15,7 cm",
+      "D": "20 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M040",
+    "question": "Tính: 0,4 + 0,35 =",
+    "options": {
+      "A": "0,65",
+      "B": "0,7",
+      "C": "0,75",
+      "D": "0,8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M041",
+    "question": "Giải phương trình: x + 6 = 14",
+    "options": {
+      "A": "x = 6",
+      "B": "x = 8",
+      "C": "x = 10",
+      "D": "x = 9"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M042",
+    "question": "Tìm x: 9x = 81",
+    "options": {
+      "A": "x = 7",
+      "B": "x = 8",
+      "C": "x = 9",
+      "D": "x = 10"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M043",
+    "question": "Số thập phân nào lớn hơn 0,5?",
+    "options": {
+      "A": "0,25",
+      "B": "0,1",
+      "C": "0,75",
+      "D": "0,2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M044",
+    "question": "Một cửa hàng tăng giá 10% cho sản phẩm giá 300.000đ. Giá mới là:",
+    "options": {
+      "A": "320.000đ",
+      "B": "310.000đ",
+      "C": "330.000đ",
+      "D": "340.000đ"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M045",
+    "question": "Diện tích hình vuông cạnh 9cm là:",
+    "options": {
+      "A": "81 cm²",
+      "B": "72 cm²",
+      "C": "90 cm²",
+      "D": "99 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M046",
+    "question": "Tìm phân số tối giản của 6/12:",
+    "options": {
+      "A": "2/4",
+      "B": "1/3",
+      "C": "1/2",
+      "D": "3/4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M047",
+    "question": "Giải bất phương trình: x - 4 < 2",
+    "options": {
+      "A": "x < 2",
+      "B": "x < 6",
+      "C": "x > 6",
+      "D": "x > 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M048",
+    "question": "Một tam giác có ba cạnh bằng nhau gọi là gì?",
+    "options": {
+      "A": "Tam giác vuông",
+      "B": "Tam giác cân",
+      "C": "Tam giác đều",
+      "D": "Tam giác tù"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M049",
+    "question": "Chu vi hình chữ nhật dài 7cm, rộng 3cm là:",
+    "options": {
+      "A": "20 cm",
+      "B": "21 cm",
+      "C": "18 cm",
+      "D": "19 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M050",
+    "question": "Tính: 0,8 - 0,35 =",
+    "options": {
+      "A": "0,45",
+      "B": "0,5",
+      "C": "0,55",
+      "D": "0,65"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M051",
+    "question": "Giải phương trình: 2x - 3 = 9",
+    "options": {
+      "A": "x = 3",
+      "B": "x = 6",
+      "C": "x = 5",
+      "D": "x = 9"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M052",
+    "question": "Phân số nào bằng 4/8?",
+    "options": {
+      "A": "2/3",
+      "B": "1/2",
+      "C": "3/4",
+      "D": "2/5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M053",
+    "question": "Tính: 0,6 + 0,25 =",
+    "options": {
+      "A": "0,9",
+      "B": "0,85",
+      "C": "0,75",
+      "D": "0,95"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "M054",
+    "question": "Diện tích hình tròn bán kính 3cm là: (π ≈ 3,14)",
+    "options": {
+      "A": "28,26 cm²",
+      "B": "18,84 cm²",
+      "C": "9,42 cm²",
+      "D": "15,7 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M055",
+    "question": "Chu vi hình vuông cạnh 12cm là:",
+    "options": {
+      "A": "36 cm",
+      "B": "48 cm",
+      "C": "24 cm",
+      "D": "30 cm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M056",
+    "question": "Tìm x: x/5 = 9",
+    "options": {
+      "A": "x = 45",
+      "B": "x = 40",
+      "C": "x = 35",
+      "D": "x = 50"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M057",
+    "question": "Giải bất phương trình: x + 7 > 10",
+    "options": {
+      "A": "x > 17",
+      "B": "x > 3",
+      "C": "x < 3",
+      "D": "x < 17"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M058",
+    "question": "Phân số nào lớn hơn 2/3?",
+    "options": {
+      "A": "1/2",
+      "B": "3/4",
+      "C": "2/5",
+      "D": "1/4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M059",
+    "question": "Tính diện tích hình chữ nhật có chiều dài 9cm, chiều rộng 4cm:",
+    "options": {
+      "A": "36 cm²",
+      "B": "45 cm²",
+      "C": "40 cm²",
+      "D": "32 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M060",
+    "question": "Tính: 1,25 - 0,75 =",
+    "options": {
+      "A": "0,25",
+      "B": "0,5",
+      "C": "0,75",
+      "D": "1"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M061",
+    "question": "Giải phương trình: 7x = 63",
+    "options": {
+      "A": "x = 8",
+      "B": "x = 9",
+      "C": "x = 10",
+      "D": "x = 7"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M062",
+    "question": "Tính: 0,4 × 0,5 =",
+    "options": {
+      "A": "0,2",
+      "B": "0,1",
+      "C": "0,25",
+      "D": "0,3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M063",
+    "question": "Phân số tối giản của 15/45 là:",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "2/3",
+      "D": "3/4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M064",
+    "question": "Chu vi hình tròn bán kính 6cm là: (π ≈ 3,14)",
+    "options": {
+      "A": "18,84 cm",
+      "B": "37,68 cm",
+      "C": "28,26 cm",
+      "D": "12,56 cm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M065",
+    "question": "Tìm x: x - 5 = 20",
+    "options": {
+      "A": "x = 25",
+      "B": "x = 15",
+      "C": "x = 30",
+      "D": "x = 10"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M066",
+    "question": "Một tam giác có các góc là 60°, 60°, và 60°. Đó là tam giác gì?",
+    "options": {
+      "A": "Tam giác vuông",
+      "B": "Tam giác tù",
+      "C": "Tam giác đều",
+      "D": "Tam giác cân"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M067",
+    "question": "Phân số nào bằng với 0,25?",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/4",
+      "D": "3/4"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M068",
+    "question": "Tính diện tích hình vuông cạnh 5cm:",
+    "options": {
+      "A": "10 cm²",
+      "B": "20 cm²",
+      "C": "25 cm²",
+      "D": "15 cm²"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M069",
+    "question": "Tính: 3,5 + 2,25 =",
+    "options": {
+      "A": "5,75",
+      "B": "6,25",
+      "C": "6,75",
+      "D": "5,5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M070",
+    "question": "Giải bất phương trình: 3x < 21",
+    "options": {
+      "A": "x < 6",
+      "B": "x > 7",
+      "C": "x < 7",
+      "D": "x > 6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M071",
+    "question": "Một hình chữ nhật có chu vi 30cm. Nếu chiều dài là 10cm, chiều rộng là:",
+    "options": {
+      "A": "5 cm",
+      "B": "10 cm",
+      "C": "15 cm",
+      "D": "20 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M072",
+    "question": "Phân số nào nhỏ nhất?",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "2/5",
+      "D": "1/4"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "M073",
+    "question": "Giá trị của biểu thức: 4 + 3 × 2 là:",
+    "options": {
+      "A": "14",
+      "B": "10",
+      "C": "16",
+      "D": "12"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M074",
+    "question": "Một hình vuông có chu vi 36cm. Cạnh hình vuông là:",
+    "options": {
+      "A": "6 cm",
+      "B": "8 cm",
+      "C": "9 cm",
+      "D": "12 cm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M075",
+    "question": "Tính: 2,5 × 3 =",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "7,5",
+      "D": "8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M076",
+    "question": "Giải phương trình: x/2 = 4",
+    "options": {
+      "A": "x = 6",
+      "B": "x = 8",
+      "C": "x = 4",
+      "D": "x = 2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M077",
+    "question": "Tìm phân số lớn hơn 1:",
+    "options": {
+      "A": "2/3",
+      "B": "3/4",
+      "C": "5/3",
+      "D": "1/2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M078",
+    "question": "Diện tích tam giác có đáy 12cm và chiều cao 5cm là:",
+    "options": {
+      "A": "30 cm²",
+      "B": "60 cm²",
+      "C": "24 cm²",
+      "D": "25 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M079",
+    "question": "Tính: 0,9 - 0,4 =",
+    "options": {
+      "A": "0,3",
+      "B": "0,5",
+      "C": "0,4",
+      "D": "0,6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M080",
+    "question": "Chu vi hình tam giác có ba cạnh dài 6cm, 7cm, 5cm là:",
+    "options": {
+      "A": "18 cm",
+      "B": "19 cm",
+      "C": "17 cm",
+      "D": "16 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M081",
+    "question": "Giải phương trình: 5x + 10 = 35",
+    "options": {
+      "A": "x = 6",
+      "B": "x = 5",
+      "C": "x = 4",
+      "D": "x = 7"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M082",
+    "question": "Phân số nào bằng với 3/6?",
+    "options": {
+      "A": "1/2",
+      "B": "2/3",
+      "C": "3/4",
+      "D": "2/4"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M083",
+    "question": "Tính: 6 × 1,5 =",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "7,5",
+      "D": "6,5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M084",
+    "question": "Một hình chữ nhật có chiều dài 10cm, chiều rộng 6cm. Diện tích là:",
+    "options": {
+      "A": "60 cm²",
+      "B": "40 cm²",
+      "C": "50 cm²",
+      "D": "70 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M085",
+    "question": "Tìm x: x + 8 = 15",
+    "options": {
+      "A": "x = 5",
+      "B": "x = 6",
+      "C": "x = 7",
+      "D": "x = 8"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M086",
+    "question": "Tính: 0,6 + 0,15 =",
+    "options": {
+      "A": "0,75",
+      "B": "0,7",
+      "C": "0,8",
+      "D": "0,65"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M087",
+    "question": "Phân số nào bằng với 0,6?",
+    "options": {
+      "A": "3/5",
+      "B": "2/3",
+      "C": "1/4",
+      "D": "1/3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M088",
+    "question": "Chu vi hình vuông có cạnh 11cm là:",
+    "options": {
+      "A": "44 cm",
+      "B": "33 cm",
+      "C": "22 cm",
+      "D": "55 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M089",
+    "question": "Tính: 2,4 - 1,2 =",
+    "options": {
+      "A": "1",
+      "B": "1,2",
+      "C": "1,4",
+      "D": "0,8"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M090",
+    "question": "Giải bất phương trình: x - 2 < 6",
+    "options": {
+      "A": "x < 8",
+      "B": "x > 4",
+      "C": "x < 4",
+      "D": "x > 8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M091",
+    "question": "Tìm giá trị của x: 3x = 27",
+    "options": {
+      "A": "x = 9",
+      "B": "x = 6",
+      "C": "x = 3",
+      "D": "x = 12"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M092",
+    "question": "Một cửa hàng giảm giá 20% cho sản phẩm giá 500.000đ. Giá sau giảm là:",
+    "options": {
+      "A": "400.000đ",
+      "B": "450.000đ",
+      "C": "480.000đ",
+      "D": "420.000đ"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M093",
+    "question": "Phân số nào bằng với 0,75?",
+    "options": {
+      "A": "2/3",
+      "B": "3/4",
+      "C": "1/3",
+      "D": "4/5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M094",
+    "question": "Tính diện tích hình tròn bán kính 4cm (π ≈ 3,14):",
+    "options": {
+      "A": "50,24 cm²",
+      "B": "25,12 cm²",
+      "C": "12,56 cm²",
+      "D": "31,4 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M095",
+    "question": "Tính: 4,5 + 2,5 =",
+    "options": {
+      "A": "7",
+      "B": "6,5",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M096",
+    "question": "Chu vi hình chữ nhật có chiều dài 15cm và chiều rộng 5cm là:",
+    "options": {
+      "A": "40 cm",
+      "B": "30 cm",
+      "C": "50 cm",
+      "D": "35 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M097",
+    "question": "Tìm x: x/4 = 5",
+    "options": {
+      "A": "x = 9",
+      "B": "x = 20",
+      "C": "x = 25",
+      "D": "x = 15"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M098",
+    "question": "Tính: 7 × 0,2 =",
+    "options": {
+      "A": "1,4",
+      "B": "1,6",
+      "C": "1,2",
+      "D": "1,8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M099",
+    "question": "Phân số nào nhỏ hơn 1/2?",
+    "options": {
+      "A": "3/4",
+      "B": "2/3",
+      "C": "1/4",
+      "D": "4/5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M100",
+    "question": "Diện tích tam giác có đáy 8cm, chiều cao 10cm là:",
+    "options": {
+      "A": "40 cm²",
+      "B": "80 cm²",
+      "C": "30 cm²",
+      "D": "50 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M101",
+    "question": "Tính giá trị của biểu thức: 4x - 7 khi x = 3",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "9"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M102",
+    "question": "Phân số nào bằng 0,4?",
+    "options": {
+      "A": "1/3",
+      "B": "2/5",
+      "C": "3/5",
+      "D": "1/2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M103",
+    "question": "Giải phương trình: 2x + 5 = 17",
+    "options": {
+      "A": "x = 5",
+      "B": "x = 6",
+      "C": "x = 7",
+      "D": "x = 8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M104",
+    "question": "Chu vi hình tròn bán kính 8cm là bao nhiêu? (π ≈ 3,14)",
+    "options": {
+      "A": "50,24 cm",
+      "B": "25,12 cm",
+      "C": "31,4 cm",
+      "D": "45,2 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M105",
+    "question": "Một tam giác có góc 90°, 45°, và góc còn lại là bao nhiêu?",
+    "options": {
+      "A": "35°",
+      "B": "55°",
+      "C": "45°",
+      "D": "60°"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M106",
+    "question": "Tính: 1,6 + 2,4 =",
+    "options": {
+      "A": "4",
+      "B": "3,9",
+      "C": "3,8",
+      "D": "3,7"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M107",
+    "question": "Giá gốc của áo là 250.000đ. Nếu giảm 10%, giá mới là:",
+    "options": {
+      "A": "225.000đ",
+      "B": "240.000đ",
+      "C": "230.000đ",
+      "D": "235.000đ"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M108",
+    "question": "Tìm x biết: 3x - 2 = 10",
+    "options": {
+      "A": "x = 3",
+      "B": "x = 4",
+      "C": "x = 5",
+      "D": "x = 6"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M109",
+    "question": "Diện tích hình chữ nhật dài 9cm, rộng 5cm là:",
+    "options": {
+      "A": "45 cm²",
+      "B": "36 cm²",
+      "C": "40 cm²",
+      "D": "35 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M110",
+    "question": "Phân số nào lớn hơn 3/5?",
+    "options": {
+      "A": "1/2",
+      "B": "2/3",
+      "C": "1/4",
+      "D": "2/5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M111",
+    "question": "Tìm x: x/6 = 5",
+    "options": {
+      "A": "x = 25",
+      "B": "x = 30",
+      "C": "x = 35",
+      "D": "x = 40"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M112",
+    "question": "Một hình vuông có diện tích 100 cm². Cạnh hình vuông là:",
+    "options": {
+      "A": "5 cm",
+      "B": "10 cm",
+      "C": "15 cm",
+      "D": "20 cm"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M113",
+    "question": "Tính: 0,9 × 0,3 =",
+    "options": {
+      "A": "0,27",
+      "B": "0,25",
+      "C": "0,3",
+      "D": "0,21"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M114",
+    "question": "Số nào là bội của 12?",
+    "options": {
+      "A": "30",
+      "B": "24",
+      "C": "20",
+      "D": "22"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M115",
+    "question": "Giải bất phương trình: x + 6 > 11",
+    "options": {
+      "A": "x > 5",
+      "B": "x > 6",
+      "C": "x > 7",
+      "D": "x > 8"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M116",
+    "question": "Số nào nhỏ hơn -2?",
+    "options": {
+      "A": "-1",
+      "B": "0",
+      "C": "-3",
+      "D": "2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M117",
+    "question": "Diện tích hình vuông cạnh 7cm là:",
+    "options": {
+      "A": "49 cm²",
+      "B": "14 cm²",
+      "C": "28 cm²",
+      "D": "21 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M118",
+    "question": "Tìm x: x - 8 = -3",
+    "options": {
+      "A": "x = -5",
+      "B": "x = 5",
+      "C": "x = -11",
+      "D": "x = 11"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M119",
+    "question": "Phân số nào bằng 2/6 sau khi rút gọn?",
+    "options": {
+      "A": "2/3",
+      "B": "1/3",
+      "C": "1/4",
+      "D": "1/2"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M120",
+    "question": "Tìm chu vi tam giác có các cạnh: 6cm, 7cm, 9cm:",
+    "options": {
+      "A": "22 cm",
+      "B": "21 cm",
+      "C": "20 cm",
+      "D": "23 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M121",
+    "question": "Tính: 2,75 + 1,25 =",
+    "options": {
+      "A": "4",
+      "B": "3,9",
+      "C": "3,8",
+      "D": "4,1"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M122",
+    "question": "Một hình tròn có đường kính 10cm. Bán kính là:",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M123",
+    "question": "Giải phương trình: x/3 + 2 = 6",
+    "options": {
+      "A": "x = 8",
+      "B": "x = 12",
+      "C": "x = 6",
+      "D": "x = 9"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M124",
+    "question": "Phân số nào lớn hơn 1?",
+    "options": {
+      "A": "3/4",
+      "B": "2/3",
+      "C": "5/4",
+      "D": "1/2"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M125",
+    "question": "Một hình chữ nhật có diện tích 56cm² và chiều dài 7cm. Chiều rộng là:",
+    "options": {
+      "A": "6 cm",
+      "B": "7 cm",
+      "C": "8 cm",
+      "D": "9 cm"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M126",
+    "question": "Tính: 0,8 - 0,45 =",
+    "options": {
+      "A": "0,35",
+      "B": "0,45",
+      "C": "0,55",
+      "D": "0,25"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M127",
+    "question": "Tìm x: 2x = 3x - 5",
+    "options": {
+      "A": "x = 5",
+      "B": "x = -5",
+      "C": "x = 10",
+      "D": "x = 0"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M128",
+    "question": "Số thập phân nào bằng với 1/5?",
+    "options": {
+      "A": "0,5",
+      "B": "0,2",
+      "C": "0,25",
+      "D": "0,4"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M129",
+    "question": "Tính diện tích hình tròn bán kính 2cm (π ≈ 3,14):",
+    "options": {
+      "A": "12,56 cm²",
+      "B": "3,14 cm²",
+      "C": "6,28 cm²",
+      "D": "4 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M130",
+    "question": "Giải bất phương trình: 2x - 3 < 7",
+    "options": {
+      "A": "x < 4",
+      "B": "x > 4",
+      "C": "x < 5",
+      "D": "x > 5"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M131",
+    "question": "Một bạn đọc 18 trang sách trong 3 ngày. Trung bình mỗi ngày bạn đọc:",
+    "options": {
+      "A": "4 trang",
+      "B": "5 trang",
+      "C": "6 trang",
+      "D": "7 trang"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "id": "M132",
+    "question": "Tính: 5,5 × 2 =",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "9",
+      "D": "12"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M133",
+    "question": "Giá trị nhỏ nhất của tập hợp {3; 6; 9; 1; 4} là:",
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M134",
+    "question": "Chu vi hình vuông cạnh 13cm là:",
+    "options": {
+      "A": "52 cm",
+      "B": "46 cm",
+      "C": "56 cm",
+      "D": "60 cm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M135",
+    "question": "Tìm x: x - 4 = -10",
+    "options": {
+      "A": "x = -6",
+      "B": "x = -14",
+      "C": "x = 6",
+      "D": "x = -16"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M136",
+    "question": "Phân số nào bằng với 0,8?",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "2/5",
+      "D": "1/2"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M137",
+    "question": "Tìm x: 10 - x = 4",
+    "options": {
+      "A": "x = 6",
+      "B": "x = 5",
+      "C": "x = 4",
+      "D": "x = 7"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M138",
+    "question": "Một mảnh vườn hình chữ nhật có chu vi 60m. Chiều dài là 20m, chiều rộng là:",
+    "options": {
+      "A": "10m",
+      "B": "15m",
+      "C": "20m",
+      "D": "25m"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M139",
+    "question": "Tính: 0,25 + 0,35 =",
+    "options": {
+      "A": "0,5",
+      "B": "0,6",
+      "C": "0,55",
+      "D": "0,45"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M140",
+    "question": "Diện tích tam giác có đáy 10cm, chiều cao 8cm là:",
+    "options": {
+      "A": "40 cm²",
+      "B": "50 cm²",
+      "C": "60 cm²",
+      "D": "80 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M141",
+    "question": "Phân số nào nhỏ hơn 1/3?",
+    "options": {
+      "A": "2/5",
+      "B": "1/4",
+      "C": "1/2",
+      "D": "2/3"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M142",
+    "question": "Giải phương trình: 4x + 2 = 18",
+    "options": {
+      "A": "x = 4",
+      "B": "x = 5",
+      "C": "x = 6",
+      "D": "x = 3"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M143",
+    "question": "Một cửa hàng tăng giá 20% cho sản phẩm 200.000đ. Giá mới là:",
+    "options": {
+      "A": "240.000đ",
+      "B": "220.000đ",
+      "C": "230.000đ",
+      "D": "210.000đ"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M144",
+    "question": "Tính: 1,1 + 2,2 =",
+    "options": {
+      "A": "3,2",
+      "B": "3,3",
+      "C": "3,4",
+      "D": "3,5"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "id": "M145",
+    "question": "Tính diện tích hình vuông cạnh 15cm:",
+    "options": {
+      "A": "225 cm²",
+      "B": "250 cm²",
+      "C": "200 cm²",
+      "D": "215 cm²"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M146",
+    "question": "Số nào là ước của 24?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "11",
+      "D": "13"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M147",
+    "question": "Tìm x: x + 2 = x + 5",
+    "options": {
+      "A": "x = 2",
+      "B": "x = -3",
+      "C": "x = 5",
+      "D": "Vô nghiệm"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "id": "M148",
+    "question": "Một lớp có 40 học sinh. 25% là học sinh giỏi. Số học sinh giỏi là:",
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "25"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M149",
+    "question": "Tính: 6² =",
+    "options": {
+      "A": "36",
+      "B": "30",
+      "C": "42",
+      "D": "32"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "id": "M150",
+    "question": "Tính: (3 + 2) × 4 =",
+    "options": {
+      "A": "20",
+      "B": "22",
+      "C": "16",
+      "D": "18"
+    },
+    "correct_answer": "A"
+  }
+]
+
+
+  

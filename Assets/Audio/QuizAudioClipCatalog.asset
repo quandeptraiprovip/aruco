@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f1cb152d6764e229a93831bfaa729b, type: 3}
+  m_Name: QuizAudioClipCatalog
+  m_EditorClassIdentifier: 
+  musicPrepare: {fileID: 8300000, guid: 190cea25bbd1046cbbd85e9175f8974e, type: 3}
+  musicCountdown: {fileID: 8300000, guid: 0dacde1a03a4d40f980d51714806641f, type: 3}
+  musicGameplay: {fileID: 8300000, guid: 91ef657f18e4249308fdb67ae64b6a7f, type: 3}
+  musicResult: {fileID: 8300000, guid: c43cab5a70b754865bced09fb49da46a, type: 3}
+  sfxButtonClick: {fileID: 8300000, guid: f667c103080b54bed9f7cbe62e59b0d4, type: 3}
+  sfxButtonHover: {fileID: 8300000, guid: c3b1a9a5203f84cec9823231e26016cb, type: 3}
+  sfxScreenWhoosh: {fileID: 8300000, guid: 8c5d36cbc7eff43009d1be01d931008b, type: 3}
+  sfxArucoAllReady: {fileID: 8300000, guid: b3c2c7e621430402cbc62173c00a84e3, type: 3}
+  sfxCountdownTick: {fileID: 8300000, guid: fe0387ae0c1d44598b43f12d8cc76e23, type: 3}
+  sfxCountdownGo: {fileID: 8300000, guid: 675b4c9ff8dc845a2bf991b6566a0139, type: 3}
+  sfxQuestionNew: {fileID: 8300000, guid: 45c1d548bf3f344758d81504ce7269c0, type: 3}
+  sfxMatReady: {fileID: 8300000, guid: 16a0cba2adcca4ad9aa33e94abfb67ef, type: 3}
+  sfxTimerTick: {fileID: 8300000, guid: 447289ebbbcd945dc90d3a1ab86b475c, type: 3}
+  sfxTimerTickWarning: {fileID: 8300000, guid: c3bb7b162a7ec4ea882f8033080e7c20, type: 3}
+  sfxTimerUrgentLoop: {fileID: 8300000, guid: ec1f6f461cef6424492d5c3609bd1f66, type: 3}
+  sfxCoverSelectStart: {fileID: 8300000, guid: ec61a5eb8abcb4260b93e7e9e403f324, type: 3}
+  sfxCoverChargeMid: {fileID: 8300000, guid: a00b9890065c34150943a38785d99581, type: 3}
+  sfxCoverLockIn: {fileID: 8300000, guid: 8507c336039bc40a583a66958e6f2b41, type: 3}
+  sfxAnswerCorrect: {fileID: 8300000, guid: fc00ae838c742498290ff1caae7ea7f7, type: 3}
+  sfxAnswerWrong: {fileID: 8300000, guid: 0b2c176311a6943b6a29bb707a67757c, type: 3}
+  sfxTimeout: {fileID: 8300000, guid: 78d154f872c624831998e698740dcd9b, type: 3}
+  sfxResultFanfare: {fileID: 8300000, guid: 80b6b1899ae7e452ea01cbcbcb18c64e, type: 3}
+  sfxStarPop: {fileID: 8300000, guid: 1e6006797a6524c7d8248593f0dc3ff4, type: 3}

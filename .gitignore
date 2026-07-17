@@ -1,0 +1,82 @@
+# ==============================================================================
+# Unity — generated / machine-local folders (never commit these; Unity rebuilds
+# them from Assets + Packages + ProjectSettings on first open).
+# ==============================================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset meta files must be committed *with* their asset — only ignore a .meta
+# when its asset is also ignored (see the OpenCVForUnity block at the bottom).
+!/[Aa]ssets/**/*.meta
+
+# Auto-generated IDE project files (Rider/VS/VS Code regenerate these).
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+
+# Unity crash reports / logs
+sysinfo.txt
+mono_crash.*
+*.stackdump
+
+# Build artifacts
+*.apk
+*.aab
+*.app
+*.ipa
+*.unitypackage
+crashlytics-build.properties
+
+# Addressables (unused here, kept for safety)
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ==============================================================================
+# macOS junk (this working copy lives on an external drive that scatters these
+# AppleDouble / Finder files everywhere — keep them out of the repo).
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+
+# ==============================================================================
+# Paid Asset Store package — NOT committed (see README "Setup").
+# ~1.7 GB with individual native binaries >100 MB; reimport from the Unity Asset
+# Store on clone. This block is LAST so it wins over the "!*.meta" rule above and
+# also ignores the folder's own sibling .meta file.
+# ==============================================================================
+/Assets/OpenCVForUnity/
+/Assets/OpenCVForUnity.meta
+
+# Stray root-level duplicate of Assets/StreamingAssets/Math.json (not used at
+# runtime). Remove it or keep it out of the repo.
+/Math.json
