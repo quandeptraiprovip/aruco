@@ -1835,6 +1835,6 @@ public static class ArucoQuizSceneBuilder
         var sound = button.gameObject.GetComponent<UiQuizButtonSound>();
         if (sound == null)
             sound = button.gameObject.AddComponent<UiQuizButtonSound>();
-        SetPrivate(sound, "audio", audio);
+        SetPrivate(sound, "audioController", audio);
     }
 }

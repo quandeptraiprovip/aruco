@@ -13,21 +13,6 @@ using UnityEngine;
 public static class ArucoQuizSceneValidator
 {
     const string MathScenePath = "Assets/Scenes/ArucoQuizMath.unity";
-    const string EnglishScenePath = "Assets/Scenes/ArucoQuizEnglish.unity";
-
-    [MenuItem("Aruco Quiz/Capture Math Screenshots", false, 12)]
-    public static void CaptureMathMenu()
-    {
-        Capture(MathScenePath, "Screenshots", exitAfter: false);
-        EditorUtility.RevealInFinder("Screenshots");
-    }
-
-    [MenuItem("Aruco Quiz/Capture English Screenshots", false, 13)]
-    public static void CaptureEnglishMenu()
-    {
-        Capture(EnglishScenePath, "Screenshots", exitAfter: false);
-        EditorUtility.RevealInFinder("Screenshots");
-    }
 
     public static void CaptureFromCommandLine()
     {

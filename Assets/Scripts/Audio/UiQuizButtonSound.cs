@@ -10,7 +10,7 @@ namespace ArucoQuiz
     [RequireComponent(typeof(Button))]
     public class UiQuizButtonSound : MonoBehaviour, IPointerEnterHandler
     {
-        [SerializeField] QuizAudioController audio;
+        [SerializeField] QuizAudioController audioController;
         [SerializeField] bool playClick = true;
         [SerializeField] bool playHover = true;
 
@@ -19,8 +19,8 @@ namespace ArucoQuiz
         void Awake()
         {
             _button = GetComponent<Button>();
-            if (audio == null)
-                audio = QuizAudioController.Instance;
+            if (audioController == null)
+                audioController = QuizAudioController.Instance;
 
             if (_button != null && playClick)
                 _button.onClick.AddListener(OnClick);
@@ -46,8 +46,8 @@ namespace ArucoQuiz
 
         QuizAudioController ResolveAudio()
         {
-            if (audio != null)
-                return audio;
+            if (audioController != null)
+                return audioController;
             return QuizAudioController.Instance;
         }
     }

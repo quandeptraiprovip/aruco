@@ -40,50 +40,11 @@ public static class ArucoQuizFontAssets
         "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789" +
         " .,!?-+*/=():\"'\n\r:/_…·";
 
-    [MenuItem("Aruco Quiz/Generate Font Assets", false, 11)]
-    public static void GenerateMenu()
-    {
-        EnsureTmpEssentials();
-        if (TMP_Settings.instance == null)
-        {
-            EditorUtility.DisplayDialog(
-                "Aruco Quiz — Fonts",
-                "Chưa có TMP Settings.\n\nVào Window → TextMesh Pro → Import TMP Essential Resources, rồi thử lại.",
-                "OK");
-            return;
-        }
-
-        DeleteBrokenSdfAssets();
-
-        var balooTtf = ResolveBalooTtfPath();
-        var balooOk = !string.IsNullOrEmpty(balooTtf) &&
-                      GenerateStaticSdf(balooTtf, SdfPathForTtf(balooTtf), BalooCharacterSet);
-        var monoOk = GenerateStaticSdf(MonoTtfPath, MonoSdfPath, MonoCharacterSet);
-
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-
-        var anyUsable = LoadBaloo() != null || LoadMono() != null;
-        EditorUtility.DisplayDialog(
-            "Aruco Quiz — Fonts",
-            anyUsable
-                ? "Font SDF đã sẵn sàng trong Assets/Fonts/.\n\nTiếp theo: Aruco Quiz → Build Scene."
-                : "Không tạo được font SDF (xem Console).\n\nVẫn có thể Build Scene — UI dùng Liberation Sans mặc định.",
-            "OK");
-
-        if (!balooOk)
-            Debug.LogWarning(
-                "[Aruco Quiz] Baloo: nếu variable font không load được, thêm Baloo2-ExtraBold.ttf (static) vào Assets/Fonts/ rồi Generate lại.");
-        if (!monoOk)
-            Debug.LogWarning($"[Aruco Quiz] Share Tech Mono: kiểm tra file {MonoTtfPath} và Include Font Data.");
-    }
-
     /// <summary>
-    /// Called automatically from the scene builder (unlike GenerateMenu, which is a manual,
-    /// easy-to-forget step). Silently (re)generates whichever SDF font is missing or no longer
-    /// covers every character in BalooCharacterSet/MonoCharacterSet — e.g. after that set gains
-    /// new Vietnamese letters — so text never silently falls back to Liberation Sans and shows
-    /// tofu boxes for glyphs the fallback font doesn't have either.
+    /// Called automatically from the scene builder. Silently (re)generates whichever SDF font
+    /// is missing or no longer covers every character in BalooCharacterSet/MonoCharacterSet —
+    /// e.g. after that set gains new Vietnamese letters — so text never silently falls back to
+    /// Liberation Sans and shows tofu boxes for glyphs the fallback font doesn't have either.
     /// </summary>
     public static void EnsureFonts()
     {

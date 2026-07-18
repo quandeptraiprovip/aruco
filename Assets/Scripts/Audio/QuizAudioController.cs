@@ -22,6 +22,7 @@ namespace ArucoQuiz
         [Header("Audio sources (auto-created if empty)")]
         [SerializeField] AudioSource musicSource;
         [SerializeField] AudioSource sfxSource;
+        [SerializeField] AudioSource coverHoldSource;
 
         [Header("Mix")]
         [SerializeField] bool minimalAudioMix = true;
@@ -51,7 +52,11 @@ namespace ArucoQuiz
         [SerializeField] AudioClip sfxQuestionNew;
         [SerializeField] AudioClip sfxMatReady;
         [SerializeField] AudioClip sfxTimerTickWarning;
+
+        [Header("Che đáp án (luôn phát, không phụ thuộc minimal mix)")]
         [SerializeField] AudioClip sfxCoverSelectStart;
+        [SerializeField] AudioClip sfxCoverChargeMid; // lặp suốt lúc giữ (coverHoldSource), không phải tiếng 1 lần
+        [SerializeField] AudioClip sfxCoverLockIn;
 
         [Header("Kết quả câu")]
         [SerializeField] AudioClip sfxAnswerCorrect;
@@ -62,18 +67,6 @@ namespace ArucoQuiz
         [SerializeField] AudioClip sfxResultFanfare;
         [SerializeField] AudioClip sfxStarPop;
 
-        // Legacy slots — kept so existing scenes don't lose serialized refs
-        [SerializeField] AudioClip sfxScreenWhoosh;
-        [SerializeField] AudioClip sfxCountdownWaitPulse;
-        [SerializeField] AudioClip sfxTimerTick;
-        [SerializeField] AudioClip sfxTimerUrgentLoop;
-        [SerializeField] AudioClip sfxCoverChargeMid;
-        [SerializeField] AudioClip sfxCoverLockIn;
-        [SerializeField] AudioClip sfxPodiumCorrect;
-        [SerializeField] AudioClip sfxPodiumWrong;
-        [SerializeField] AudioClip sfxCountdownPopAnim;
-        [SerializeField] AudioClip sfxFeedbackPanelIn;
-
         QuizScreen _screen = (QuizScreen)(-1);
         int _countdown = -1;
         int _timeLeft = -1;
@@ -82,6 +75,8 @@ namespace ArucoQuiz
         bool _showFeedback;
         bool _canStart;
         int _coverSlot = -1;
+        bool _coverLockFired;
+        int _menuCoverSlot = -1;
 
         Coroutine _musicFadeRoutine;
         Coroutine _duckRoutine;
@@ -206,10 +201,6 @@ namespace ArucoQuiz
                 _showFeedback = game.ShowFeedback;
             }
 
-            if (!minimalAudioMix)
-                PollCoverSelectionLegacy();
-            else if (_coverSlot >= 0)
-                _coverSlot = -1;
         }
 
         void OnScreenChanged(QuizScreen from, QuizScreen to)
@@ -269,7 +260,6 @@ namespace ArucoQuiz
         {
             if (game.Screen != QuizScreen.Playing || next <= prev)
                 return;
-            _coverSlot = -1;
             if (minimalAudioMix || prev < 0)
                 return;
             PlaySfx(sfxQuestionNew, SfxPriority.Low, 0.65f);
@@ -312,39 +302,99 @@ namespace ArucoQuiz
                 PlaySfx(sfxTimeout, SfxPriority.Important, 0.85f);
             else
                 PlaySfx(sfxAnswerWrong, SfxPriority.Important, 0.85f);
-
-            _coverSlot = -1;
-        }
-
-        void PollCoverSelectionLegacy()
-        {
-            if (game.Screen != QuizScreen.Playing || game.ShowFeedback || detector == null)
-            {
-                _coverSlot = -1;
-                return;
-            }
-
-            if (!detector.MatReady)
-            {
-                _coverSlot = -1;
-                return;
-            }
-
-            var slot = detector.CoverCandidate;
-            if (slot != _coverSlot && slot >= 0)
-                PlaySfx(sfxCoverSelectStart, SfxPriority.Low, 0.5f);
-            _coverSlot = slot;
         }
 
         void Update()
         {
-            if (minimalAudioMix || game == null || game.Screen != QuizScreen.Prepare || detector == null)
+            if (game == null)
                 return;
 
-            var ready = game.CanStartGame;
-            if (ready && !_canStart)
-                PlaySfx(sfxArucoAllReady, SfxPriority.Normal, 0.7f);
-            _canStart = ready;
+            if (!minimalAudioMix && game.Screen == QuizScreen.Prepare && detector != null)
+            {
+                var ready = game.CanStartGame;
+                if (ready && !_canStart)
+                    PlaySfx(sfxArucoAllReady, SfxPriority.Normal, 0.7f);
+                _canStart = ready;
+            }
+
+            PollAnswerCoverAudio();
+            PollMenuCoverSignal();
+        }
+
+        // Che 1 trong 4 đáp án khi đang chơi — báo "đã che" ngay, phát tiếng đang giữ suốt lúc che, rồi 1 tiếng khi chốt.
+        void PollAnswerCoverAudio()
+        {
+            if (detector == null || !detector.IsSelectingAnswer)
+            {
+                if (_coverSlot >= 0)
+                {
+                    _coverSlot = -1;
+                    _coverLockFired = false;
+                    StopCoverHoldLoop();
+                }
+                return;
+            }
+
+            var slot = detector.CoverCandidate;
+            if (slot != _coverSlot)
+            {
+                _coverSlot = slot;
+                _coverLockFired = false;
+                PlaySfx(sfxCoverSelectStart, SfxPriority.Low, 0.55f);
+                StartCoverHoldLoop();
+            }
+
+            var progress = detector.GetCoverProgress(slot);
+            UpdateCoverHoldLoop(progress);
+            if (!_coverLockFired && progress >= 0.96f)
+            {
+                _coverLockFired = true;
+                PlaySfx(sfxCoverLockIn, SfxPriority.Normal, 0.75f);
+                StopCoverHoldLoop();
+            }
+        }
+
+        // Che 1 thẻ để bắt đầu (Prepare) / chơi lại (Result) — chỉ báo "đã che", không có loop/chốt (2 cái đó dành riêng cho chọn đáp án).
+        void PollMenuCoverSignal()
+        {
+            if (detector == null || !detector.MenuMatArmed ||
+                (game.Screen != QuizScreen.Prepare && game.Screen != QuizScreen.Result))
+            {
+                _menuCoverSlot = -1;
+                return;
+            }
+
+            var slot = detector.MenuCoverCandidate;
+            if (slot != _menuCoverSlot)
+            {
+                _menuCoverSlot = slot;
+                if (slot >= 0)
+                    PlaySfx(sfxCoverSelectStart, SfxPriority.Low, 0.5f);
+            }
+        }
+
+        // Tiếng lặp khi đang giữ che thẻ — cao độ tăng dần theo % giữ, cho cảm giác "đang tích tụ".
+        void StartCoverHoldLoop()
+        {
+            if (coverHoldSource == null || sfxCoverChargeMid == null)
+                return;
+            coverHoldSource.clip = sfxCoverChargeMid;
+            coverHoldSource.volume = sfxVolume * 0.5f;
+            coverHoldSource.pitch = 0.9f;
+            coverHoldSource.Play();
+        }
+
+        void UpdateCoverHoldLoop(float progress)
+        {
+            if (coverHoldSource == null || !coverHoldSource.isPlaying)
+                return;
+            coverHoldSource.pitch = Mathf.Lerp(0.9f, 1.6f, progress);
+        }
+
+        void StopCoverHoldLoop()
+        {
+            if (coverHoldSource != null && coverHoldSource.isPlaying)
+                coverHoldSource.Stop();
         }
 
         IEnumerator StarPopsDelayed()
@@ -470,8 +520,17 @@ namespace ArucoQuiz
                 sfxSource.priority = 128;
             }
 
+            if (coverHoldSource == null)
+            {
+                coverHoldSource = gameObject.AddComponent<AudioSource>();
+                coverHoldSource.playOnAwake = false;
+                coverHoldSource.loop = true;
+                coverHoldSource.priority = 96;
+            }
+
             ConfigureSource2D(musicSource);
             ConfigureSource2D(sfxSource);
+            ConfigureSource2D(coverHoldSource);
             musicSource.volume = musicVolume;
         }
 

@@ -14,15 +14,6 @@ public static class ArucoQuizMarkerGenerator
     const string Folder = "Assets/Textures/ArucoMarkers";
     const int PixelSize = 512;
 
-    [MenuItem("Aruco Quiz/Generate Marker Textures (IDs 0–3)", false, 15)]
-    public static void GenerateMenu()
-    {
-        Generate();
-        EditorUtility.DisplayDialog("Aruco Quiz",
-            "Đã tạo marker_0.png … marker_3.png (DICT_4X4_50).\nA=0, B=1, C=2, D=3.",
-            "OK");
-    }
-
     public static void Generate()
     {
         Directory.CreateDirectory(Folder);
